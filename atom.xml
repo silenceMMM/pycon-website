@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  <subtitle>A fast, simple &amp; powerful blog framework powered by Node.js.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://hexo.io/"/>
+  <updated>2018-09-12T14:47:54.225Z</updated>
+  <id>https://hexo.io/</id>
+  
+  <author>
+    <name>Hexo</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://hexo.io/news/2018/09/12/xxx/"/>
+    <id>https://hexo.io/news/2018/09/12/xxx/</id>
+    <published>2018-09-12T14:47:54.225Z</published>
+    <updated>2018-09-12T14:47:54.225Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
