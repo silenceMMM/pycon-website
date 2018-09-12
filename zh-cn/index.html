@@ -16,49 +16,257 @@
     
   
   <meta name="msapplication-TileColor" content="#2f83cd">
-  <meta name="msapplication-TileImage" content="/icon/mstile-144x144.png">
+  <meta name="msapplication-TileImage" content="/pycon-website/icon/mstile-144x144.png">
   <meta name="generator" content="Hexo 3.7.1">
+
   <!-- CSS -->
   <!-- build:css build/css/navy.css -->
-  <link rel="stylesheet" href="/css/navy.css">
+  <link href="https://cdn.bootcss.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/pycon-website/css/navy.css">
 </head>
 
 <body>
-  <header id="header" class="wrapper">
-  <div id="header-inner" class="inner">
-    <h1 id="logo-wrap">
-      <a href="/zh-cn/" id="logo">Hexo</a>
-    </h1>
-    <nav id="main-nav">
-      <a href="/zh-cn/docs/" class="main-nav-link">文档</a><a href="/zh-cn/api/" class="main-nav-link">API</a><a href="/news/" class="main-nav-link">新闻</a><a href="/plugins/" class="main-nav-link">插件</a><a href="/themes/" class="main-nav-link">主题</a>
+  <header id="header">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand logo" href="#">
+        <img src="/assets/cqm_logo.png">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">首页</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">2018</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              大会日程
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">北京站 10.14</a>
+              <a class="dropdown-item" href="#">上海站 10.21</a>
+              <a class="dropdown-item" href="#">深圳站 10.27</a>
+              <a class="dropdown-item" href="#">成都 10.27</a>
+              <a class="dropdown-item" href="#">杭州 11.04</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              往届回顾
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">2017</a>
+              <a class="dropdown-item" href="#">2016</a>
+              <a class="dropdown-item" href="#">2015</a>
+              <a class="dropdown-item" href="#">2014</a>
+              <a class="dropdown-item" href="#">2013</a>
+              <a class="dropdown-item" href="#">2012</a>
+              <a class="dropdown-item" href="#">2011</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">相关资讯</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">组委 & 志愿者</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">讲师</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">赞助</a>
+          </li>
+          <div id="lang-select-wrap" class="my-2 my-lg-0">
+            <label id="lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></label>
+            <select id="lang-select" data-canonical="">
+              
+                <option value="en">English</option>
+              
+                <option value="zh-cn" selected>简体中文</option>
+              
+            </select>
+          </div>
+        </ul>
+
+      </div>
     </nav>
-    <div id="lang-select-wrap">
-      <label id="lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></label>
-      <select id="lang-select" data-canonical="">
-        
-          <option value="en">English</option>
-        
-          <option value="zh-cn" selected>简体中文</option>
-        
-      </select>
-    </div>
-    <a id="mobile-nav-toggle">
-      <span class="mobile-nav-toggle-bar"></span>
-      <span class="mobile-nav-toggle-bar"></span>
-      <span class="mobile-nav-toggle-bar"></span>
-    </a>
   </div>
 </header>
 
   <div id="container">
-    <header id="banner" class="wrapper">
-  <div>1</div>
-</header>
-<div id="content-wrap">
-  <div>开始使用</div>
+    
+<header id="banner"></header>
+  <div class="button-wrap">
+    <button class="btn btn-yellow left-btn">申请演讲</button>
+    <button class="btn btn-yellow">申请志愿者</button>
+  </div>
+<div class="container content-wrap">
+  <!--
+    <div>开始使用</div>
+  -->
+
+  <div class="title-wraper">
+  <div class="text">大会日程</div>
+  <img src="/assets/cqm_title_img.png" alt="">
 </div>
-    <footer id="footer" class="wrapper">
-  <div>footer</div>
+  <div class="metting-list">
+    <div class="mettingItem">
+  <div class="left">
+    <div class="leftContent">
+      <div class="name">北京</div>
+      <p>活动时间：2018.10.14</p>
+      <p>活动地址：北京市XXXXXXXXXXXX大酒店</p>
+      <p>XXXXXX 特性专场 | XXXX特性专场 | 女性专场</p>
+    </div>
+    <!-- <img src=/assets/beijingIcon.png alt=""> -->
+  </div>
+  <div class="right">
+    <a href="">
+      <button class="btn btn-blue">查看详细信息</button>
+    </a>
+    <a href="">
+      <button class="btn btn-blue">我要买票</button>
+    </a>
+  </div>
+</div>
+     <div class="mettingItem">
+  <div class="left">
+    <div class="leftContent">
+      <div class="name">北京</div>
+      <p>活动时间：2018.10.14</p>
+      <p>活动地址：北京市XXXXXXXXXXXX大酒店</p>
+      <p>XXXXXX 特性专场 | XXXX特性专场 | 女性专场</p>
+    </div>
+    <!-- <img src=/assets/beijingIcon.png alt=""> -->
+  </div>
+  <div class="right">
+    <a href="">
+      <button class="btn btn-blue">查看详细信息</button>
+    </a>
+    <a href="">
+      <button class="btn btn-blue">我要买票</button>
+    </a>
+  </div>
+</div>
+     <div class="mettingItem">
+  <div class="left">
+    <div class="leftContent">
+      <div class="name">北京</div>
+      <p>活动时间：2018.10.14</p>
+      <p>活动地址：北京市XXXXXXXXXXXX大酒店</p>
+      <p>XXXXXX 特性专场 | XXXX特性专场 | 女性专场</p>
+    </div>
+    <!-- <img src=/assets/beijingIcon.png alt=""> -->
+  </div>
+  <div class="right">
+    <a href="">
+      <button class="btn btn-blue">查看详细信息</button>
+    </a>
+    <a href="">
+      <button class="btn btn-blue">我要买票</button>
+    </a>
+  </div>
+</div>
+     <div class="mettingItem">
+  <div class="left">
+    <div class="leftContent">
+      <div class="name">北京</div>
+      <p>活动时间：2018.10.14</p>
+      <p>活动地址：北京市XXXXXXXXXXXX大酒店</p>
+      <p>XXXXXX 特性专场 | XXXX特性专场 | 女性专场</p>
+    </div>
+    <!-- <img src=/assets/beijingIcon.png alt=""> -->
+  </div>
+  <div class="right">
+    <a href="">
+      <button class="btn btn-blue">查看详细信息</button>
+    </a>
+    <a href="">
+      <button class="btn btn-blue">我要买票</button>
+    </a>
+  </div>
+</div>
+     <div class="mettingItem">
+  <div class="left">
+    <div class="leftContent">
+      <div class="name">北京</div>
+      <p>活动时间：2018.10.14</p>
+      <p>活动地址：北京市XXXXXXXXXXXX大酒店</p>
+      <p>XXXXXX 特性专场 | XXXX特性专场 | 女性专场</p>
+    </div>
+    <!-- <img src=/assets/beijingIcon.png alt=""> -->
+  </div>
+  <div class="right">
+    <a href="">
+      <button class="btn btn-blue">查看详细信息</button>
+    </a>
+    <a href="">
+      <button class="btn btn-blue">我要买票</button>
+    </a>
+  </div>
+</div>
+  </div>
+  <div class="title-wraper">
+  <div class="text">往届回顾</div>
+  <img src="/assets/cqm_title_img.png" alt="">
+</div>
+  <div class="reviewWraper"> 
+    <div class="reviewItem">
+      <img src="/assets/d4_history_img01.png" alt="">
+      <p>2016</p>
+      <p>PyConChina</p>
+    </div>
+    <div class="reviewItem">
+       <img src="/assets/d4_history_img01.png" alt="">
+       <p>2015</p>
+       <p>PyConChina</p>
+    </div>
+    <div class="reviewItem">
+       <img src="/assets/d4_history_img01.png" alt="">
+      <p>2014</p>
+      <p>PyConChina</p>
+    </div>
+    <div class="reviewItem">
+       <img src="/assets/d4_history_img01.png" alt="">
+      <p>2013</p>
+      <p>PyConChina</p>
+    </div>
+    <div class="reviewItem">
+       <img src="/assets/d4_history_img01.png" alt="">
+      <p>2012</p>
+      <p>PyConChina</p>
+    </div>
+  </div>
+  <div class="title-wraper">
+  <div class="text">合作支持</div>
+  <img src="/assets/cqm_title_img.png" alt="">
+</div>
+  <div class="supportWraper">
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+          <img src="/assets/d5_friendship_single01.png" alt="">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="/assets/d5_friendship_single01.png" alt="">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="/assets/d5_friendship_single01.png" alt="">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="/assets/d5_friendship_single01.png" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+    <footer id="footer">
+  <p>Copyright©2018,<span class="yellow">PyConChina</span></p>
+  <p>Contact:<a href="mailto:support@pychina.org">support@pychina.org</a> | Discuss:<span class="yellow">pyconchinese@googlegroups.com</span></p>
 </footer>
 
   </div>
@@ -66,9 +274,9 @@
   <nav id="mobile-nav">
   <div id="mobile-nav-inner">
     <ul id="mobile-nav-list">
-      <a href="/zh-cn/docs/" class="mobile-nav-link">文档</a><a href="/zh-cn/api/" class="mobile-nav-link">API</a><a href="/news/" class="mobile-nav-link">新闻</a><a href="/plugins/" class="mobile-nav-link">插件</a><a href="/themes/" class="mobile-nav-link">主题</a>
+      <a href="/pycon-website/zh-cn/docs/" class="mobile-nav-link">文档</a><a href="/pycon-website/zh-cn/api/" class="mobile-nav-link">API</a><a href="/pycon-website/news/" class="mobile-nav-link">新闻</a><a href="/pycon-website/plugins/" class="mobile-nav-link">插件</a><a href="/pycon-website/themes/" class="mobile-nav-link">主题</a>
       <li class="mobile-nav-item">
-        <a href="https://github.com/hexojs/hexo" class="mobile-nav-link" rel="external" target="_blank">GitHub</a>
+        <a href="https://github.com/" class="mobile-nav-link" rel="external" target="_blank">GitHub</a>
       </li>
     </ul>
     
@@ -88,14 +296,14 @@
 <!-- Cookie -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js"></script>
 <!-- build:js build/js/main.js -->
-<script src="/js/lang_select.js"></script>
-<script src="/js/toc.js"></script>
-<script src="/js/mobile_nav.js"></script>
+<script src="/pycon-website/js/lang_select.js"></script>
+<script src="/pycon-website/js/toc.js"></script>
+<script src="/pycon-website/js/mobile_nav.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <!-- endbuild -->
 
 <!-- Algolia -->
-
-
 
 
 </body>
